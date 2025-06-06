@@ -1,0 +1,12 @@
+### PUT request to udpate patient entity
+PUT http://localhost:4000/patients/223e4567-e89b-12d3-a456-426614174013
+Content-Type: application/json
+
+{
+  "name": "Lisna Thomas",
+  "email": "lisnathomas99@gmail.com",
+  "address": "8890 133A Surrey, BC",
+  "dateOfBirth": "1998-06-19"
+}
+
+###
